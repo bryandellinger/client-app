@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Providers, ProviderState } from '@microsoft/mgt';
-import { Login, Person, Agenda, PeoplePicker, People } from '@microsoft/mgt-react'; // import login component
+import { Login, Person, Agenda, PeoplePicker, People } from '@microsoft/mgt-react'; // import login components
 import { Header, List } from 'semantic-ui-react';
 
 

@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Providers } from '@microsoft/mgt-element';
 import { Msal2Provider } from '@microsoft/mgt-msal2-provider';
 
+
 Providers.globalProvider = new Msal2Provider({
   clientId: "bd7c447b-e640-4a8a-99b9-f31769b9ab66",
   authority: "https://login.microsoftonline.com/0b23030e-3028-4f52-a8f1-a9898322c7fe",
